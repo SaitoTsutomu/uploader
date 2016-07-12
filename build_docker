@@ -1,0 +1,2 @@
+docker run -it --rm -u `id -u`:`id -g` -v $PWD:/a -w /a golang:1.6-alpine go build uploader.go
+docker build -t tsutomu7/uploader .
